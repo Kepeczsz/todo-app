@@ -1,0 +1,9 @@
+spring:
+  h2.console:
+    enabled: true
+    path: '/console'
+  datasource:
+    url: 'jdbc:h2:file:/home/michal/Studia/projektTestowy/todo-app/todb'
+  jpa:
+    hibernate:
+      ddl-auto: update
